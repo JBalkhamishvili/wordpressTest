@@ -1,6 +1,7 @@
 {
   "name": "WordPress",
   "dockerComposeFile": "docker-compose.yml",
+  "workspaceFolder": "/var/www/html",
   "service": "wordpress",
   "settings": { 
     "terminal.integrated.shell.linux": "/bin/bash"
