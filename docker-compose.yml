@@ -24,11 +24,5 @@ services:
       WORDPRESS_DB_PASSWORD: root
       WORDPRESS_DB_NAME: wordpress_1
 
-  wp-pull:
-    build:
-      context: /wp-pull
-    depends_on:
-      - wordpress
-
 volumes:
   db_data: {}
