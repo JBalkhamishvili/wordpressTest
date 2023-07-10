@@ -12,5 +12,5 @@ wp plugin install wp-migrate-db --allow-root --path=/var/www/html --activate
 
 # pull in data from WP Engine
 # you will need to fill in the details of the following command
-wp migratedb pull https://phpmyadmin.wpengine.com/ --allow-root --path=/var/www/html \
-  --username=jumber.balkhamishvili@tipalti.com --password=Nemo22nemo@@ 
+wp migratedb pull <source-url> --allow-root --path=/var/www/html \
+  --username=<your-username> --password=<your-password> 
