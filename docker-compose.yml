@@ -26,7 +26,7 @@ services:
 
   wp-pull:
     build:
-      context: /wp-pull
+      context: ./wp-pull
     depends_on:
       - wordpress
 
